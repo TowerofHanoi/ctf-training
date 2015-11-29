@@ -1,0 +1,39 @@
+RAGAZZI, NEOFITI E NON, UDITE
+A partire da martedì 1 Dicembre inizierò una serie di tutorial di hacking 
+binario con i seguenti programmi:
+
+1 Dicembre
+	Buffer overflow
+	Format string
+	Reversing con IDA
+	Global offset table
+	PWN, socat, tools
+
+Poi, in giorni da decidere per avere il maggior numero di persone 
+(doodle:http://doodle.com/poll/i2edp3adzvwb7kt6)
+
+Sarebbe ideale splittarlo in altre 3 volte, per i seguenti argomenti:
+	ASLR, PIE, RELRO
+	Memory leaks 
+	Shellcode
+	Return into libc
+	ROP
+	Stack flip
+	Heap misbehaviours and ugly stuff
+	Integer overflows
+	64 vs 32 bit	
+	Some useful bash tricks
+	Qualche challenge che metta insieme il tutto
+
+Per Martedì iniziate a venire con i seguenti software preinstallati su un 
+sistema linux o MacOS.
+	gdb e gcc (non dovrebbe essere necessario installarli, ma non si sa mai...)
+	make
+	(non necessario ma molto utile) gdb-peda (seguite le istruzioni qui:https://github.com/longld/peda)
+	pwn tools (installabile con "pip install pwntools")
+	socat
+
+Trovate un modo per avere:
+	IDA + Hex Rays (vedere la wiki https://ctf.necst.it/wiki/Main_Page#Tools)
+
+

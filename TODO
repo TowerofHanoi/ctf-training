@@ -1,0 +1,6 @@
+LD Preload
+BOF on x86_64?
+double free
+heap overflow
+integer overflow
+stack flip

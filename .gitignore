@@ -1,0 +1,4 @@
+*.out
+*peda-session*
+*gdb.txt
+videos/*

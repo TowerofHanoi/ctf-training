@@ -1,0 +1,22 @@
+	PWN, socat, tools
+	Buffer overflow
+	Format string
+	Reversing con IDA
+	Global offset table
+
+	ASLR, PIE, RELRO, CANARIES, NX(DEP)X^W
+	Shellcode
+	Return into libc
+	64 vs 32 bit	
+	
+	Memory leaks 
+	ROP
+	Stack flip
+	Heap misbehaviours and ugly stuff(double frees, overflows, read after free)
+	Integer overflows
+
+	Patching
+	LD_Preaload
+	intercepting signals with gdb
+	Some useful bash tricks
+	Let's try to put everything together	

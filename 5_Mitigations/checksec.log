@@ -1,0 +1,12 @@
+RELRO           STACK CANARY      NX            PIE             RPATH      RUNPATH      FILE
+[31mNo RELRO     [m   [31mNo canary found[m   [32mNX enabled [m   [31mNo PIE       [m   [32mNo RPATH [m  [32mNo RUNPATH [m  default
+RELRO           STACK CANARY      NX            PIE             RPATH      RUNPATH      FILE
+[31mNo RELRO     [m   [31mNo canary found[m   [31mNX disabled[m   [31mNo PIE       [m   [32mNo RPATH [m  [32mNo RUNPATH [m  broken
+RELRO           STACK CANARY      NX            PIE             RPATH      RUNPATH      FILE
+[31mNo RELRO     [m   [32mCanary found   [m   [32mNX enabled [m   [31mNo PIE       [m   [32mNo RPATH [m  [32mNo RUNPATH [m  canaries
+RELRO           STACK CANARY      NX            PIE             RPATH      RUNPATH      FILE
+[33mPartial RELRO[m   [31mNo canary found[m   [32mNX enabled [m   [31mNo PIE       [m   [32mNo RPATH [m  [32mNo RUNPATH [m  partialrelro
+RELRO           STACK CANARY      NX            PIE             RPATH      RUNPATH      FILE
+[32mFull RELRO   [m   [31mNo canary found[m   [32mNX enabled [m   [31mNo PIE       [m   [32mNo RPATH [m  [32mNo RUNPATH [m  fullrelro
+RELRO           STACK CANARY      NX            PIE             RPATH      RUNPATH      FILE
+[31mNo RELRO     [m   [31mNo canary found[m   [32mNX enabled [m   [32mPIE enabled  [m   [32mNo RPATH [m  [32mNo RUNPATH [m  pie

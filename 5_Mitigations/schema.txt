@@ -1,0 +1,53 @@
+		   						  MAPS OF AN X64 ELF
+--------------------------------------------------------------------------------
+Permissions: ---
+Starting address: 	0x00000000
+
+ .comment
+ .shstrtab
+ .symtab
+ .strtab
+
+Last Address: 		0x000006f0 (approx)
+--------------------------------------------------------------------------------
+								   UNMAPPED SPACE
+--------------------------------------------------------------------------------
+Permissions: r--
+Starting address: 	0x00400200 (approx)
+
+ .note.ABI_tag
+ .note.gnu.build_id
+ .gnu.hash
+ .dynsym
+ .dynstr
+ .gnu.version
+ .gnu.version_r
+ .rela.dyn
+ .rela.plt
+--------------------------------------------------------------------------------
+Permissions: r-x
+ .init 				(The firt part executed)
+ .plt  				(Lines used to use the GOT)
+ .text 				(The actual main part of the code)
+ .fini
+--------------------------------------------------------------------------------
+Permissions: r--
+ .rodata
+ .eh_frame_hdr
+ .eh_frame
+
+Last address: 0x00401000 (approx)
+--------------------------------------------------------------------------------
+								   UNMAPPED SPACE
+--------------------------------------------------------------------------------
+Permissions: rw-
+Starting address is: 0x00601000 (approx, instead of 1000 put the trailing part
+ of the previous section)
+ .init_array
+ .fini_array
+ .jcr
+ .dynamic
+ .got 				(Global offset table)
+ .got.plt 			(This only exists if full RELRO is not enabled)
+ .data 				(Global data of the program)
+ .bss 				(Global data of the program)

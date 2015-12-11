@@ -1,14 +1,17 @@
+FIRST LESSON: https://www.dropbox.com/s/1x23d3zl6x5qdzt/first_lesson.ogv?dl=0
 	PWN, socat, tools
 	Buffer overflow
 	Format string
 	Reversing con IDA
 	Global offset table
 
+SECOND LESSON: https://www.dropbox.com/s/u7t8vryx8pvahwm/second-lesson.ogv?dl=0
 	ASLR, PIE, RELRO, CANARIES, NX(DEP)X^W
 	Shellcode
 	Return into libc
 	64 vs 32 bit	
 	
+THIRD LESSON:	
 	Memory leaks 
 	ROP
 	Stack flip
